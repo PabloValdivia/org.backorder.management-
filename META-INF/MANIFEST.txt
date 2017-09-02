@@ -1,0 +1,1 @@
+Service-Component: OSGI-INF/BM_OrderManagementLineDocEvent.xml,OSGI-INF/BM_OrderManagementLineModelFactory.xml
