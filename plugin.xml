@@ -19,4 +19,17 @@
 		class="org.bm.process.RefreshData">
 	</process>
 </extension>
+<extension id="org.bm.process.PM_BOMDrop"
+  point="org.adempiere.base.Process">
+	<process
+		class="org.bm.process.PM_BOMDrop">
+	</process>
+</extension>
+<extension 
+         id="org.bm.bom.drop"
+         point="org.adempiere.webui.Form">
+      <form
+            class="org.bm.bom.drop.WBOMDropConfigurator">
+      </form>
+</extension>
 </plugin>
