@@ -28,11 +28,7 @@ import org.compiere.process.SvrProcess;
 		List<MBM_OrderManagementLine> lines = new Query(Env.getCtx(),MBM_OrderManagementLine.Table_Name,whereClause,get_TrxName())
 		.setParameters(getAD_PInstance_ID()).list();
 
-		for (MBM_OrderManagementLine line:lines){
-			int a = line.get_ID();
-
-			log.info("Selected line ID = "+a);
-
+		for (MBM_OrderManagementLine line:lines){			
 	}
 
 	return "RESULT: "+lines.toString();
