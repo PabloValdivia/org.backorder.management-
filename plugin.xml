@@ -7,12 +7,6 @@
 		class="org.bm.process.GenerateSalesOrder">
 	</process>
 </extension>
-<extension id="org.bm.process.CreateShipment"
-  point="org.adempiere.base.Process">
-	<process
-		class="org.bm.process.CreateShipment">
-	</process>
-</extension>
 <extension id="org.bm.process.RefreshData"
   point="org.adempiere.base.Process">
 	<process

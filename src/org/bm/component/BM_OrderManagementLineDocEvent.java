@@ -6,9 +6,7 @@ import org.compiere.util.CLogger;
 import org.osgi.service.event.Event;
 
 public class BM_OrderManagementLineDocEvent extends AbstractEventHandler {
- 	private static CLogger log = CLogger.getCLogger(BM_OrderManagementLineDocEvent.class);
-		private String trxName = "";
-		private PO po = null;
+ 	private static CLogger log = CLogger.getCLogger(BM_OrderManagementLineDocEvent.class); 
 
 	@Override 
 	protected void initialize() {  
@@ -18,12 +16,4 @@ public class BM_OrderManagementLineDocEvent extends AbstractEventHandler {
 	@Override 
 	protected void doHandleEvent(Event event){ 
 	  }
-
-	private void setPo(PO eventPO) {
-		 po = eventPO;
-	}
-
-	private void setTrxName(String get_TrxName) {
- 	trxName = get_TrxName;
-		}
 }
