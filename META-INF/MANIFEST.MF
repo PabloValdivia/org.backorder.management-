@@ -16,7 +16,7 @@ Comment: /**********************************************************************
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Red1
-Bundle-SymbolicName: org.backorder.management;singleton:=true
+Bundle-SymbolicName: org.red1.sales;singleton:=true
 Bundle-Version: 1.1
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Require-Bundle: org.adempiere.base;bundle-version="2.1.0",
