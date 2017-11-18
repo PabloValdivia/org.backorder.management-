@@ -1,4 +1,4 @@
-package org.bm.bom.drop;
+package org.sales.bom.drop;
 
 import java.util.HashMap;
 import java.util.Map;

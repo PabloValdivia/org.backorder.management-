@@ -23,7 +23,7 @@
          id="org.bm.bom.drop"
          point="org.adempiere.webui.Form">
       <form
-            class="org.bm.bom.drop.WBOMDropConfigurator">
+            class="org.sales.bom.drop.WBOMDropConfigurator">
       </form>
 </extension>
 </plugin>

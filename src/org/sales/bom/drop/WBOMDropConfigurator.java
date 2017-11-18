@@ -19,7 +19,7 @@
  * 2007, Modified by Posterita Ltd.
  */
 
-package org.bm.bom.drop;
+package org.sales.bom.drop;
 
 import java.beans.PropertyChangeListener;
 import java.math.BigDecimal;

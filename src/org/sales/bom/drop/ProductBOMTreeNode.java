@@ -1,4 +1,4 @@
-package org.bm.bom.drop;
+package org.sales.bom.drop;
 
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;

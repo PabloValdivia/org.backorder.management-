@@ -1,4 +1,4 @@
-package org.bm.bom.drop;
+package org.sales.bom.drop;
 
 /**
  * Implement this interface to provide model of tree with support radio

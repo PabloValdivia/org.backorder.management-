@@ -1,4 +1,4 @@
-package org.bm.bom.drop;
+package org.sales.bom.drop;
 
 import org.zkoss.zul.Treeitem;
 import org.zkoss.zul.Treerow;
